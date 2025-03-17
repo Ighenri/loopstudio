@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+*{
+    font-family: "Alata", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+header{
+    background: url(./images/desktop/image-hero.jpg);
+    height: 100vh;
+
+}
+
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 4rem;
+}
+
+.navList{
+    display: flex;
+    list-style: none;
+}
+
+.navList li{
+    padding: 0 1rem;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.herotext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 70vh;
+   
+}
+
+h1{
+    border: 2px solid white;
+    max-width: 500px;
+    font-size: 3.4rem;
+    color: white;
+    padding: 30px;
+    
+}
+.VR_container{
+    position: relative;
+    height: 80vh;
+    padding: 5rem;
+}
+
+.VR_image{
+    width: 500px;
+}
+
+.VR_text{
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+    position: absolute;
+    top: 10rem;
+    left: 30rem;
+}
+
+.VR_text h1{
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    color: black;
+    padding: 1rem 3rem;
+}
+
+.VR_text p{
+    padding: 1rem 3rem;
+}
