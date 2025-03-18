@@ -80,3 +80,51 @@ h1{
 .VR_text p{
     padding: 1rem 3rem;
 }
+
+.galleryContainer{
+    padding: 5rem;
+}
+
+.galleryText{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.galleryText h3{
+    text-transform: uppercase;
+    color: rgb(47, 43, 43);
+}
+
+.galleryText button{
+    padding: .5rem 2rem;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+
+}
+
+.galleryText button:hover{
+    background-color: white;
+    color: black;
+}
+
+.imageGallery{
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    margin-top: 2rem;
+}
+
+.item{
+    position: relative;
+}
+
+.item p{
+    position: absolute;
+    color: white;
+    bottom: 5rem;
+    width: 200px;
+    font-size: 2rem;
+    margin: 1rem;
+}
